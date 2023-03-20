@@ -1,8 +1,19 @@
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:language_learning_card_app/hosgeldin.dart';
-void main() {
+
+///Firebase veri çekme işlemi tamamlanmadı.
+///Kelimelere ses eklenecek(opsiyonel)
+///Daha fazla kelime eklenecek.
+///Kod refactoring yapılacak.
+
+
+void main()async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
   runApp(const BenimUygulamam());
+
 }
 
 class BenimUygulamam extends StatelessWidget {

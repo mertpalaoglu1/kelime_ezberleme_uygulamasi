@@ -18,9 +18,11 @@ class _EzberlenenlerState extends State<Ezberlenenler> {
           title: Text(counter==0?'Ezberlenenler':'Word Bank',
               style: GoogleFonts.openSans(textStyle: baslikStili)),
         ),
-        body: Column(children: [
-          Text(counter==0?'Tebrikler! SAYAC kadar kelime ezberlediniz.':'Congratulations! you memorized SAYAC words'),
-        ]),
+        body: Center(
+          child: Column(children: [
+            Text(counter==0?'Tebrikler! SAYAC kadar kelime ezberlediniz.':'Congratulations! you memorized SAYAC words'),
+          ]),
+        ),
         );
   }
 }

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "77134336390",
+    "project_id": "kelime-ezberleme-uygulamasi",
+    "storage_bucket": "kelime-ezberleme-uygulamasi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:77134336390:android:1cf99b89f62aae0b791c07",
+        "android_client_info": {
+          "package_name": "com.example.language_learning_card_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "77134336390-udjl35jg13145tje0o1mnffrg7fe2s9l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7iFh8e2IMTgtCiVGnD373KJafOj_83u8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "77134336390-udjl35jg13145tje0o1mnffrg7fe2s9l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
